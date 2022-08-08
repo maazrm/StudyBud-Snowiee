@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <title>StudyBud</title>
-    <link rel="stylesheet" href="styles/nav.css">
+    <title>Register page</title>
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <link rel="stylesheet" href="styles/nav.css">
 
 <body>
-
     <!-- start of navigation bar -->
     <nav>
-        <a id="logo" href=""">StudyBud</a>
-        <form id="search" action="" method="get">
+        <a href="" id="logo">StudyBud</a>
+        <form action="" id="search" method="get">
             <input type="text" name="Search" placeholder="Search..." id="searchInput">
         </form>
         <div id="user">
@@ -32,44 +28,54 @@
             </div> -->
             <!-- end of if user is not logged in -->
 
-            <!-- if user is logged in -->
             <div class="userProfile">
                 <div class="avatarContainer">
-                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar" />
+                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar">
                 </div>
                 <div class="userDetails">
                     <a href="" class="username">Snowine</a>
                     <span class="userTag">@snowine</span>
                 </div>
             </div>
-            <!-- end of logged in user -->
-
-            <img src="img/drop-down.svg" id="dropdown" alt="dropdown button">
         </div>
     </nav>
+
     <main>
-        <div id="loginContainer">
+        <div id="registerContainer">
             <div class="heading">
-                <h1>Login</h1>
+                <h1>Register</h1>
             </div>
             <div class="content">
                 <form action="" method="post">
+                    <div class="firstNameContainer">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" placeholder="eg: John">
+                    </div>
+                    <div class="lastNameContainer">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" placeholder="eg: Doe">
+                    </div>
+                    <div class="usernameContainer">
+                        <label for="username">username:</label>
+                        <input type="text" name="username" placeholder="eg: JohnDoe">
+                    </div>
                     <div class="emailContainer">
                         <label for="email">Email:</label>
                         <input type="text" name="email" placeholder="eg: johndoe@gmail.com">
                     </div>
-                    <div class="passwordContainer">
-                        <label for="email">Email:</label>
-                        <input type="password" name="password" placeholder="••••••••" id="">
+                    <div class="PasswordContainer">
+                        <label for="Password">First Name:</label>
+                        <input type="password" name="password" placeholder="••••••••">
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="submit">REGISTER</button>
                 </form>
-                <div class="registerPrompt">
-                    <p>Have'nt signed up yet?</p>
-                    <button>Register</button>
+                <div class="loginPrompt">
+                    <p>Already have an account?</p>
+                    <button>Login</button>
                 </div>
             </div>
         </div>
     </main>
 </body>
+
 </html>
