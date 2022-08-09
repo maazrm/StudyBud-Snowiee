@@ -13,5 +13,7 @@ body {
     --mainColor: #0F2027;
     --bgColor: #1E272C;
     --secondaryColor: #112751;
-    --tertiaryColor: #2C5364;
+    /* --tertiaryColor: #2C5364; */ 
+    /* different color in figma */
+    --tertiaryColor: #1E3D4A;;
 }
