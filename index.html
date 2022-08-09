@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register page</title>
     <link rel="stylesheet" href="styles/general.css">
-    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <link rel="stylesheet" href="styles/register.css">
     <link rel="stylesheet" href="styles/nav.css">
 
 <body>
@@ -46,28 +46,37 @@
                 <h1>Register</h1>
             </div>
             <div class="content">
-                <form action="" method="post">
-                    <div class="firstNameContainer">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" name="firstName" placeholder="eg: John">
+                <form action="" method="post" class="registerForm">
+                    <div class="formContent">
+                        <div class="content-1">
+                            <div class="fields">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" name="firstName" placeholder="eg: John">
+                            </div>
+                            <div class="fields">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" name="lastName" placeholder="eg: Doe">
+                            </div>
+                            <div class="fields">
+                                <label for="username">username:</label>
+                                <input type="text" name="username" placeholder="eg: JohnDoe">
+                            </div>
+                        </div>
+
+                        <div class="content-2">
+                            <div class="fields">
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" placeholder="eg: johndoe@gmail.com">
+                            </div>
+                            <div class="fields">
+                                <label for="Password">Password:</label>
+                                <input type="password" name="password" placeholder="••••••••">
+                            </div>
+                        </div>
                     </div>
-                    <div class="lastNameContainer">
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" name="lastName" placeholder="eg: Doe">
+                    <div class="btn">
+                        <button type="submit">REGISTER</button>
                     </div>
-                    <div class="usernameContainer">
-                        <label for="username">username:</label>
-                        <input type="text" name="username" placeholder="eg: JohnDoe">
-                    </div>
-                    <div class="emailContainer">
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" placeholder="eg: johndoe@gmail.com">
-                    </div>
-                    <div class="PasswordContainer">
-                        <label for="Password">First Name:</label>
-                        <input type="password" name="password" placeholder="••••••••">
-                    </div>
-                    <button type="submit">REGISTER</button>
                 </form>
                 <div class="loginPrompt">
                     <p>Already have an account?</p>
