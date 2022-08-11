@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register page</title>
+    <title>Room Page</title>
     <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/roomPage.css">
     <link rel="stylesheet" href="styles/nav.css">
 
 <body>
@@ -41,48 +41,94 @@
     </nav>
 
     <main>
-        <div id="registerContainer">
-            <div class="heading">
-                <h1>Register</h1>
-            </div>
-            <div class="content">
-                <form action="" method="post" class="registerForm">
-                    <div class="formContent">
-                        <div class="content-1">
-                            <div class="fields">
-                                <label for="firstName">First Name:</label>
-                                <input type="text" name="firstName" placeholder="eg: John">
-                            </div>
-                            <div class="fields">
-                                <label for="lastName">Last Name:</label>
-                                <input type="text" name="lastName" placeholder="eg: Doe">
-                            </div>
-                            <div class="fields">
-                                <label for="username">username:</label>
-                                <input type="text" name="username" placeholder="eg: JohnDoe">
-                            </div>
-                        </div>
-
-                        <div class="content-2">
-                            <div class="fields">
-                                <label for="email">Email:</label>
-                                <input type="text" name="email" placeholder="eg: johndoe@gmail.com">
-                            </div>
-                            <div class="fields">
-                                <label for="Password">Password:</label>
-                                <input type="password" name="password" placeholder="••••••••">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="btn">
-                        <button type="submit">REGISTER</button>
-                    </div>
-                </form>
-                <div class="loginPrompt">
-                    <p>Already have an account?</p>
-                    <button>Login</button>
+        <div id="roomContainer">
+            <div class="userProfile-rm">
+                <div class="avatarContainer-rm">
+                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar-rm">
+                </div>
+                <div class="userDetails-rm">
+                    <a href="" class="username-rm">Snowine</a>
+                    <span class="userTag-rm">@snowine</span>
                 </div>
             </div>
+
+            <div id="content">
+                <div id="content-1">
+                    <h1>Dennis Ivy Public Announcement</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum neque voluptatibus, saepe
+                        eius sint deserunt, maxime magni corrupti sunt itaque rem id labore consectetur nihil. Quia
+                        molestias illo ducimus.</p>
+                </div>
+
+                <div id="conversationContainer">
+                    <h2>CONVERSATIONS</h2>
+                    <div class="conversations">
+                        <div class="messages">
+                            <div class="userProfile-ms">
+                                <div class="avatarContainer-ms">
+                                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar-ms">
+                                </div>
+                                <div class="userDetails-ms">
+                                    <a href="" class="username-ms">Snowine</a>
+                                    <span class="userTag-ms">@snowine</span>
+                                </div>
+                            </div>
+                            <p class="messageContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+                                dolores eveniet sint fuga et quidem pariatur recusandae ab exercitationem quo, cum
+                                labore incidunt modi beatae in nobis facere, quas reiciendis!</p>
+                        </div>
+
+                        <div class="messages">
+                            <div class="userProfile-ms">
+                                <div class="avatarContainer-ms">
+                                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar-ms">
+                                </div>
+                                <div class="userDetails-ms">
+                                    <a href="" class="username-ms">Snowine</a>
+                                    <span class="userTag-ms">@snowine</span>
+                                </div>
+                            </div>
+                            <p class="messageContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+                                dolores eveniet sint fuga et quidem pariatur recusandae ab exercitationem quo, cum
+                                labore incidunt modi beatae in nobis facere, quas reiciendis!</p>
+                        </div>
+
+                        <div class="messages">
+                            <div class="userProfile-ms">
+                                <div class="avatarContainer-ms">
+                                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar-ms">
+                                </div>
+                                <div class="userDetails-ms">
+                                    <a href="" class="username-ms">Snowine</a>
+                                    <span class="userTag-ms">@snowine</span>
+                                </div>
+                            </div>
+                            <p class="messageContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+                                dolores eveniet sint fuga et quidem pariatur recusandae ab exercitationem quo, cum
+                                labore incidunt modi beatae in nobis facere, quas reiciendis!</p>
+                        </div>
+
+                        <div class="messages">
+                            <div class="userProfile-ms">
+                                <div class="avatarContainer-ms">
+                                    <img src="img/avatar1.png" alt="user avatar" id="userAvatar-ms">
+                                </div>
+                                <div class="userDetails-ms">
+                                    <a href="" class="username-ms">Snowine</a>
+                                    <span class="userTag-ms">@snowine</span>
+                                </div>
+                            </div>
+                            <p class="messageContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+                                dolores eveniet sint fuga et quidem pariatur recusandae ab exercitationem quo, cum
+                                labore incidunt modi beatae in nobis facere, quas reiciendis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="participantContainer">
+
         </div>
     </main>
 </body>
