@@ -13,6 +13,8 @@ nav {
 }
 
 #searchInput {
+    background-color: var(--tertiaryColor);
+    color: white;
     outline: none;
     padding: 12px 16px;
     border-radius: 50px;
@@ -80,5 +82,4 @@ nav {
     display: flex;
     flex-direction: column;
 }
-
 
